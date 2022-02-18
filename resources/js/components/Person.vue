@@ -11,6 +11,8 @@
             <div class="person-card__description">
                 <h4 class="bg-danger text-light">Grades: {{ grade }}</h4>
 
+                <!-- <input type="text" v-model="grade" /> -->
+
                 <grade-button :text="upgradeBtnText" :action="upgrade" />
                 <grade-button text="Downgrade" :action="downgrade" />
             </div>

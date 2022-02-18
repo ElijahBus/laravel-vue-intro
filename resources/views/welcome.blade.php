@@ -13,11 +13,13 @@
 
 <body>
     <div id="app">
-        <person></person>
+        {{-- <person></person>
 
         <div>
             <example-component />
-        </div>
+        </div> --}}
+
+        <greetings />
     </div>
 
 
